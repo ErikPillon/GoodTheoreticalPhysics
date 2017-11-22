@@ -6,8 +6,9 @@ This is a fairly detailed collection of all the subjects, concepts, theorems and
 trip. There is no request of completeness as well as this "few" concepts must be intended as a leading guide for the
 student that is approaching mathematics and/or physics from scratch.
 
-1 Elementary Math
-2 Linear Algebra
+**1 Elementary Math**
+
+**2 Linear Algebra**
 3 Single-valued Real Analysis
 4 Mechanics
 5 Thermodynamics
