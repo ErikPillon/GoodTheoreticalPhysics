@@ -9,7 +9,10 @@ student that is approaching mathematics and/or physics from scratch.
 **1 Elementary Math**
 
 **2 Linear Algebra**
+
 3 Single-valued Real Analysis
+-----------------------------
+
 4 Mechanics
 5 Thermodynamics
 6 Logic
