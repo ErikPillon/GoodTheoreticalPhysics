@@ -15,7 +15,7 @@ $(title).pdf: $(title).tex
 	echo "==> Compiling file "$(title)".tex"; \
 	pdflatex $(title).tex
 
-$(title).tex: $(chapters) $(bibliography)
+$(title).tex: $(chapters) 
 	touch $(title).tex
 
 
