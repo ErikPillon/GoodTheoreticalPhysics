@@ -21,20 +21,23 @@
 \usepackage{microtype}
 \usepackage{floatflt}
 
+\usepackage[backend=bibtex]{biblatex} %I need to use biblatex for some special features
+\addbibresource{bib.bib}
 
 % THE FOLLOWING ARE OTHER BEAUTIFUL FONTS
 %\usepackage{palatino}
 %\usepackage{fontawesome}
 %\usepackage{fourier}
 
-%\usepackage{hyperref}
+\usepackage{hyperref}
 
 \usepackage{newtxtext}
 \usepackage{newtxmath}
 
+
 \begin{document}
 \begin{abstract}
-	Qualque chose
+Brief explanation of what this stuff is... 
 \end{abstract}
 \section*{Introduction}
 This is a fairly detailed collection of all the subjects, concepts, theorems and tools I'we studied during my educational trip. There is no request of completeness as well as this "few" concepts must be intended as a leading guide for the student that is approaching mathematics and/or physics from scratch.
@@ -111,6 +114,18 @@ Even if this (sometimes \emph{very}) abstract subject is considered almost selfc
 	\item De Rham Cohomology
 \end{itemize}
 \section{Functional Analysis}
+\begin{refsection}
+
+\begin{itemize}
+	\item $ L^p $ spaces
+	\item Riesz Lemma
+	\item Fredholm Alternative
+\end{itemize}
+
+\nocite{brezis2010functional}
+\printbibliography[heading=subbibliography]
+\end{refsection}
+
 \section{Stochastic Differential Equations}
 \begin{itemize}
 	\item It\^o Integral
@@ -119,6 +134,11 @@ Even if this (sometimes \emph{very}) abstract subject is considered almost selfc
 \begin{itemize}
 	\item Characteristics Method
 \end{itemize}
+\begin{refsection}
+	\nocite{salsa2016equazioni}
+	\nocite{salsa2016partial}
+\printbibliography[heading=subbibliography]
+\end{refsection}
 \section{Advanced Numerical Analysis}
 \section{Analytical Mechanics}
 \section{Quantum Mechanics}
@@ -147,6 +167,10 @@ Even if this (sometimes \emph{very}) abstract subject is considered almost selfc
 	\item Shell Model of the Nucleus
 	\end{itemize}
 \section{Statistical Mechanics}
+\begin{refsection}
+	\nocite{kittel1998thermal}
+\printbibliography[heading=subbibliography]
+\end{refsection}
 \section{Solid State Physics}
 \begin{itemize}
 	\item Boltzman Model
@@ -154,6 +178,10 @@ Even if this (sometimes \emph{very}) abstract subject is considered almost selfc
 	\item Bebye Model
 	\item Drude Theory
 \end{itemize}
+\begin{refsection}
+	\nocite{kittel2005introduction}
+\printbibliography[heading=subbibliography]
+\end{refsection}
 \section{Nuclear Physics}
 \section{Mathematical tools for Physics}
 \begin{itemize}
