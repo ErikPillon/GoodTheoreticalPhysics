@@ -1,0 +1,61 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{salsa2016equazioni}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Salsa}{S.}%
+     {Sandro}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{SS1}
+  \strng{fullhash}{SS1}
+  \field{sortinit}{S}
+  \field{title}{Equazioni a derivate parziali: Metodi, modelli e applicazioni}
+  \field{volume}{98}
+  \field{year}{2016}
+\endentry
+
+\entry{salsa2016partial}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Salsa}{S.}%
+     {Sandro}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{SS1}
+  \strng{fullhash}{SS1}
+  \field{sortinit}{S}
+  \field{title}{Partial differential equations in action: from modelling to
+  theory}
+  \field{volume}{99}
+  \field{year}{2016}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

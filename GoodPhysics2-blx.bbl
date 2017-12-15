@@ -1,0 +1,41 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{brezis2010functional}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Brezis}{B.}%
+     {Haim}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Science \& Business Media}%
+  }
+  \strng{namehash}{BH1}
+  \strng{fullhash}{BH1}
+  \field{sortinit}{B}
+  \field{title}{Functional analysis, Sobolev spaces and partial differential
+  equations}
+  \field{year}{2010}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
